@@ -46,6 +46,11 @@ private double GPA;
         return GPA;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" + "Number=" + Number + ", Name=" + Name + ", Major=" + Major + ", GPA=" + GPA + '}';
+    }
+
 
 
 
